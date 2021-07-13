@@ -1,11 +1,13 @@
 import React from "react";
 import NavBar from "./NavBar";
+import CompanyLogo from "./CompanyLogo";
 import Home01 from "../images/pexels-mentatdgt-936575.jpg";
 
 const Home = () => {
   return (
     <div>
       <NavBar />
+      <CompanyLogo />
       <main className="home-main">
         <article className="home-main__image">
           <figure>
